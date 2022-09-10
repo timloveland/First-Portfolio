@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Aboreto', cursive;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 75px;
+  background-color: #212121;
+}
+
+header, nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+  padding: 25px 15px;
+  transition: 0.3s;
+}
+
+nav a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background: #4999e4;
+  padding: 9px 20px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+nav li:nth-of-type(3) {
+  margin-right: 20px;
+}
+
+nav a:hover {
+  background: #1d72c4;
+}
+
+nav li:hover {
+  transform: scale(1.2);
+}
+
+nav ul {
+  float: right;
+}
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #212121 30%, #535352 55%, #636362 75%, white);
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about h1 {
+  padding: 5px;
+  font-size: 34px;
+  color: white;
+}
+
+.loveland {
+  color: #4999e4;
+}
+
+.about h1:nth-of-type(2) {
+  margin-bottom: 20px;
+}
+
+.about p {
+  padding: 6px;
+  color: white;
+}
+
+.bio {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* Portfolio Section */
+
+#projects h1 {
+  text-align: center;
+  font-size: 28px;
+  padding: 55px;
+}
+
+.project-tile img {
+  width: 350px;
+  height: 350px;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1400px;
+  padding: 25px;
+  margin: auto;
+}
+
+#projects {
+  margin-bottom: 60px;
+}
+
+/* Survey Page */
+
+.survey-page {
+  width: 350px;
+  height: 380px;
+}
+
+.survey-page img {
+  object-fit: cover;
+}
+
+.survey-page h2 {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  background: #535352;
+  transition: 0.3s;
+}
+
+.survey-page h2:hover {
+  background: #4999e4;
+}
+
+.survey-page a {
+  text-decoration: none;
+}
+
+/* Kind David Page */
+
+.tribute-page {
+  width: 350px;
+  height: 380px;
+}
+
+.tribute-page img {
+  object-fit: cover;
+}
+
+.tribute-page h2 {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  background: #535352;
+  transition: 0.3s;
+}
+
+.tribute-page h2:hover {
+  background: #4999e4;
+}
+
+.tribute-page a {
+  text-decoration: none;
+}
+
+/* Image Gallery */
+
+.image-gallery {
+  width: 350px;
+  height: 380px;
+}
+
+.image-gallery img {
+  object-fit: cover;
+}
+
+.image-gallery h2 {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  background: #535352;
+  transition: 0.3s;
+}
+
+.image-gallery h2:hover {
+  background: #4999e4;
+}
+
+.image-gallery a {
+  text-decoration: none;
+}
+
+/* Technical Page */
+
+.tech-page {
+  width: 350px;
+  height: 380px;
+  margin-top: 25px;
+}
+
+.tech-page img {
+  object-fit: cover;
+}
+
+.tech-page h2 {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  background: #535352;
+  transition: 0.3s;
+}
+
+.tech-page h2:hover {
+  background: #4999e4;
+}
+
+.tech-page a {
+  text-decoration: none;
+}
+
+/* Vic Firth Page */
+
+.prod-page {
+  width: 350px;
+  height: 380px;
+  margin-top: 25px;
+}
+
+.prod-page img {
+  object-fit: cover;
+}
+
+.prod-page h2 {
+  text-align: center;
+  padding: 15px;
+  color: white;
+  background: #535352;
+  transition: 0.3s;
+}
+
+.prod-page h2:hover {
+  background: #4999e4;
+}
+
+.prod-page a {
+  text-decoration: none;
+}
+
+/* CONTACT section */
+
+#contact {
+  width: 100%;
+  height: 100vh;
+  background: #4999e4;
+}
+
+.contact-me {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-me h1 {
+  color: white;
+  font-size: 34px;
+  padding: 12px;
+}
+
+.contact-me p {
+  color: white;
+}
+
+/* Links */
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.links p {
+padding: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.linkedin {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.fa-envelope, .fa-phone {
+  color: white;
+}
+
+footer {
+  height: 50px;
+  border-top: 3px solid gray;
+}
+
+footer p {
+  padding-top: 15px;
+  margin-left: 10%;
+  font-weight: bold;
+}
+
+/* MEDIA for phones */
+
+@media (max-width: 700px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header {
+    height: 220px;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .about p {
+    text-align: center;
+  }
+
+  .project-dash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+  }
+
+  .links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+}
