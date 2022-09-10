@@ -351,13 +351,26 @@ footer p {
 @media (max-width: 700px) {
   nav ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 25px;
+    margin-right: 18px;
   }
-  
-  header {
-    height: 220px;
+
+  nav li {
+    margin: auto;
+    padding: 2px;
+  }
+
+  nav li:nth-of-type(3) {
+    margin-right: 0px;
+  }
+
+  .project-tile img {
+    width: 275px;
+    height: 350px;
+    margin: auto;
   }
 
   .name {
